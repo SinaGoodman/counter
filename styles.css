@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(images/img6.jpg);
+  background-size: cover;
+}
+.cntr {
+  position: relative;
+  border: 3px solid rgb(138, 207, 8);
+  height: 200px;
+  width: 150px;
+  margin: 0 auto;
+  top: 50px;
+  cursor: pointer;
+  font-size: 70pt;
+  padding: 10px;
+  text-align: center;
+  color: #040404;
+  background-color: #e0010b !important;
+  margin-top: 200px;
+  padding-top: 35px;
+}
+
+.cntr:active {
+  top: 45px;
+  transition: top 50ms linear;
+}
